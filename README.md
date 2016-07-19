@@ -19,3 +19,4 @@ This is a container that runs R... __not__ any of the R IDEs.
 * Rprofile.site tells R set its working directory to the RWORK environment variable. Part of the `docker run` command above sets `RWORK` in the container as the host's working directory.
 
 ## WHAT IF IT DOESN'T WORK?
+Open an [issue](https://github.com/hackenfreude/docker-tlatoolbox-1.5.2/issues/ne://github.com/hackenfreude/docker-r-3.3.1/issues/new).
