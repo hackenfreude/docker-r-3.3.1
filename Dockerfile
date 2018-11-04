@@ -1,4 +1,4 @@
-FROM debian:jessie
+FROM debian:stretch-20181011
 
 RUN apt-get update && apt-get install --assume-yes --no-install-recommends \
 	r-base
@@ -6,3 +6,4 @@ RUN apt-get update && apt-get install --assume-yes --no-install-recommends \
 COPY Rprofile.site /etc/R/
 
 ENTRYPOINT ["R"]
+
